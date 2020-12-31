@@ -3,5 +3,5 @@
 ## events you can use
 `TriggerClientEvent('raag:blip', source, text, x, y, z)`        
 `TriggerClientEvent('raag:helpText', source, text)`         
-`TriggerClientEvent('raag:setView', source, x, y, z, h, `Active or not (true or false)`)`           
+`TriggerClientEvent('raag:setView', source, x, y, z, h, bool)`           
 `TriggerClientEvent('raag:addPed', source, x, y, z, h, ped)`            
