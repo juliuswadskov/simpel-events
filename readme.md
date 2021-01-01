@@ -6,3 +6,4 @@
 `TriggerClientEvent('raag:setView', source, x, y, z, h, bool)`           
 `TriggerClientEvent('raag:addPed', source, x, y, z, h, ped)`      
 `TriggerClientEvent('raag:notify', source, text)`
+`TriggerClientEvent('raag:AdvancedNotify', text, clan)`
