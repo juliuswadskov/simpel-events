@@ -77,3 +77,10 @@ AddEventHandler('raag:blip', function(text, x, y, z)
     AddTextComponentString(text)
     EndTextCommandSetBlipName(blip)
 end)
+
+-- Native Notify
+AddEventHandler('raag:notify', function(text)
+  SetNotificationTextEntry("STRING")
+  AddTextComponentString(string)
+  DrawNotification(false, true)
+end)
