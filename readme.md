@@ -6,4 +6,6 @@
 `TriggerClientEvent('raag:setView', source, x, y, z, h, bool)`           
 `TriggerClientEvent('raag:addPed', source, x, y, z, h, ped)`      
 `TriggerClientEvent('raag:notify', source, text)`
+
+### For this one you can use https://wiki.gtanet.work/index.php?title=Notification_Pictures for help with **clan**
 `TriggerClientEvent('raag:AdvancedNotify', source, text, clan)`
