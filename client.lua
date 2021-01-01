@@ -14,6 +14,7 @@ RegisterNetEvent('raag:blip')
 RegisterNetEvent('raag:helpText')
 RegisterNetEvent('raag:setView')
 RegisterNetEvent('raag:addPed')
+RegisterNetEvent('raag:notify')
 
 -- Add Ped
 AddEventHandler('raag:addPed', function(x,y,z,h, ped) 
