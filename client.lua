@@ -15,6 +15,7 @@ RegisterNetEvent('raag:helpText')
 RegisterNetEvent('raag:setView')
 RegisterNetEvent('raag:addPed')
 RegisterNetEvent('raag:notify')
+RegisterNetEvent('raag:Anotify')
 
 -- Add Ped
 AddEventHandler('raag:addPed', function(x,y,z,h, ped) 
@@ -84,4 +85,12 @@ AddEventHandler('raag:notify', function(text)
   SetNotificationTextEntry("STRING")
   AddTextComponentString(string)
   DrawNotification(false, true)
+end)
+
+-- Native Notify Advanced
+AddEventHandler('raag:Anotify', function(text, sender, subject, clan, duration)
+    SetNotificationTextEntry("STRING")
+    AddTextComponentString(text)
+    SetNotificationMessageClanTag(clan, clan, 1, 7, sender, subject, 1000 * duration, "")
+    DrawNotification(true, true)
 end)
