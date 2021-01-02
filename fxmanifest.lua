@@ -5,4 +5,4 @@ author 'Raag2005#0001'
 description 'Free to use variables (simpel version)'
 version '1.1'
 
-client_script 'client.compressed.lua' 
+client_script 'client.lua' 
