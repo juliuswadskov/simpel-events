@@ -8,4 +8,4 @@
 `TriggerClientEvent('raag:notify', source, text)`         
 
 For this one you can use https://wiki.gtanet.work/index.php?title=Notification_Pictures for help with **clan**        
-`TriggerClientEvent('raag:AdvancedNotify', text, sender, subject, clan, duration)`
+`TriggerClientEvent('raag:Anotify', text, sender, subject, clan, duration)`
