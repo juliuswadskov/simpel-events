@@ -1,14 +1,18 @@
---    _____                   ___   ___   ___  _____   _  _    ___   ___   ___  __ 
---   |  __ \                 |__ \ / _ \ / _ \| ____|_| || |_ / _ \ / _ \ / _ \/_ |
---   | |__) |__ _  __ _  __ _   ) | | | | | | | |__ |_  __  _| | | | | | | | | || |
---   |  _  // _` |/ _` |/ _` | / /| | | | | | |___ \ _| || |_| | | | | | | | | || |
---   | | \ \ (_| | (_| | (_| |/ /_| |_| | |_| |___) |_  __  _| |_| | |_| | |_| || |
---   |_|  \_\__,_|\__,_|\__, |____|\___/ \___/|____/  |_||_|  \___/ \___/ \___/ |_|
---                       __/ |                                                     
---                      |___/    
---                                                  
---  This is som simpel events for FiveM
---  Copyright, Oskar Raagart at https://www.raag2005.dk
+--[[
+ 
+    -    _____                   ___   ___   ___  _____   _  _    ___   ___   ___  __ 
+    -   |  __ \                 |__ \ / _ \ / _ \| ____|_| || |_ / _ \ / _ \ / _ \/_ |
+    -   | |__) |__ _  __ _  __ _   ) | | | | | | | |__ |_  __  _| | | | | | | | | || |
+    -   |  _  // _` |/ _` |/ _` | / /| | | | | | |___ \ _| || |_| | | | | | | | | || |
+    -   | | \ \ (_| | (_| | (_| |/ /_| |_| | |_| |___) |_  __  _| |_| | |_| | |_| || |
+    -   |_|  \_\__,_|\__,_|\__, |____|\___/ \___/|____/  |_||_|  \___/ \___/ \___/ |_|
+    -                       __/ |                                                     
+    -                      |___/    
+    -                                                  
+    -  This is simpel-events for FiveM
+    -  Copyright, Oskar Raagart at https://www.raag2005.dk
+
+]]
 
 RegisterNetEvent('raag:blip')
 RegisterNetEvent('raag:helpText')
@@ -83,7 +87,7 @@ end)
 -- Native Notify
 AddEventHandler('raag:notify', function(text)
   SetNotificationTextEntry("STRING")
-  AddTextComponentString(string)
+  AddTextComponentString(text)
   DrawNotification(false, true)
 end)
 
